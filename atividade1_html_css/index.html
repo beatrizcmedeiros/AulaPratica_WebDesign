@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Projeto prático de Web Design com HTML e CSS.">
+  <title>Web Design | Projeto Prático</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-content">
+      <a class="brand" href="#inicio" aria-label="Página inicial">
+        <span class="brand-mark">&lt;/&gt;</span>
+        <span>Web Design</span>
+      </a>
+
+      <nav class="main-nav" aria-label="Navegação principal">
+        <a href="#inicio">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#recursos">Recursos</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">Aula prática • HTML + CSS</span>
+          <h1>Interfaces web bonitas, simples e funcionais.</h1>
+          <p>
+            Esta página demonstra estrutura semântica em HTML, uso de imagem,
+            tipografia, cores, espaçamentos, cartões, responsividade e estilos
+            externos em CSS.
+          </p>
+          <a class="button" href="#sobre">Conhecer o projeto</a>
+        </div>
+
+        <img
+          class="hero-image"
+          src="images/banner.svg"
+          alt="Ilustração com elementos de desenvolvimento web e design"
+        >
+      </div>
+    </section>
+
+    <section class="section" id="sobre">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">Sobre</span>
+          <h2>Elementos gráficos integrados ao conteúdo</h2>
+          <p>
+            O layout combina conteúdo textual e elementos visuais com uma
+            identidade consistente, aplicando boas práticas de hierarquia e contraste.
+          </p>
+        </div>
+
+        <div class="feature-grid">
+          <article class="card">
+            <img class="icon" src="images/icone-estrutura.png" alt="Ícone de código HTML">
+            <h3>Estrutura</h3>
+            <p>Uso de cabeçalho, navegação, conteúdo principal, seções e rodapé.</p>
+          </article>
+
+          <article class="card">
+            <img class="icon" src="images/icone-estilo.png" alt="Ícone de paleta de cores">
+            <h3>Estilo</h3>
+            <p>Cores, fontes, margens, sombras, bordas, botões e layout responsivo.</p>
+          </article>
+
+          <article class="card">
+            <img class="icon" src="images/icone-graficos.png" alt="Ícone de imagem">
+            <h3>Gráficos</h3>
+            <p>Banner vetorial (SVG) e ícones em PNG com fundo transparente, armazenados na pasta de imagens.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="recursos">
+      <div class="container split">
+        <div>
+          <span class="eyebrow">Recursos aplicados</span>
+          <h2>Uma página pronta para apresentação</h2>
+          <p>
+            O projeto utiliza CSS externo e mantém os arquivos organizados em
+            uma estrutura simples, fácil de abrir no navegador ou editar no VS Code.
+          </p>
+        </div>
+
+        <ul class="check-list">
+          <li>HTML semântico</li>
+          <li>Arquivo CSS externo</li>
+          <li>Elemento gráfico SVG</li>
+          <li>Ícones PNG com transparência</li>
+          <li>Layout responsivo</li>
+          <li>Estilização de imagem e componentes</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>&copy; 2026 - Projeto de Web Design</p>
+      <p>Atividade prática acadêmica.</p>
+    </div>
+  </footer>
+</body>
+</html>
